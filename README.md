@@ -7,7 +7,7 @@ An interactive, multi-agent AI application that researches technical topics and 
 * **Interactive UI:** A clean Streamlit frontend for users to easily input topics and instantly download or read their generated guides.
 * **File Management:** Built-in sidebar to track, view, and delete past research sessions.
 
-## 🛠️Tech Stack
+## Tech Stack
 * **Framework:** LangGraph & LangChain
 * **LLM:** Llama-3.3-70b (via Groq)
 * **Frontend:** Streamlit
