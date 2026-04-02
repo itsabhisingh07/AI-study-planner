@@ -27,7 +27,7 @@ with st.sidebar:
                     st.rerun() 
 
 
-st.title(" AI Study Planner")
+st.title("DeepDive-Architect-AI")
 st.markdown("Enter a topic below, and the agent will research and generate a comprehensive study guide.")
 
 user_topic = st.text_input("What do you want to learn about?", placeholder="e.g., NLP in Deep Learning")
