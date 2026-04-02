@@ -9,10 +9,11 @@ from langchain_core.messages import SystemMessage, HumanMessage
 from langchain_groq import ChatGroq
 
 import os
-from dotenv import load_dotenv
-
-load_dotenv() 
-
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass 
 from langchain_groq import ChatGroq
 llm = ChatGroq(model="llama-3.3-70b-versatile", temperature=0)
 
