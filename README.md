@@ -1,4 +1,4 @@
-#  AI Study Planner Agent
+#  DeepDive Architect AI
 
 An interactive, multi-agent AI application that researches technical topics and generates comprehensive, highly detailed study guides in Markdown format. 
 
