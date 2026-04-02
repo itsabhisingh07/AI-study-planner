@@ -3,7 +3,7 @@ import os
 import glob
 from main import app  
 
-st.set_page_config(page_title="Study Planner Agent", layout="wide")
+st.set_page_config(page_title="DeepDive-Architect-AI", layout="wide")
 
 with st.sidebar:
     st.header(" Past Research Files")
